@@ -16,22 +16,35 @@
         <h1 class="text-base font-semibold text-emerald-600">
           WELCOME TO
           <span class="block font-bold text-emerald-600 text-5xl mt-1">Elkiano Putra</span>
-                           <span>
+                        <span>
                 </h1>
                 <h2 class ="text-base font-medium text-gray-600 mt-1"> Sleeping | Hiking | Touring</h2>
                 <p class = "font-medium text-dark mt-3 mb-5">Website ini dibuat untuk mencoba hal yang belum pernah dicoba</p>
                 <a href="https://www.instagram.com/elqii_" class="font-bold text-white bg-emerald-400
                 rounded -2x1 py-3 px-8 hover:shadow-xl hover:bg-emerald-800 transition duration-500 ease-in-out">Follow Me</a>
                 </div>
-                <div class="w-full self-end px-4 lg:w-1/2"> 
-                <div class="relative my-10 lg:mt-9 lg:right-0">
-                <img src="./src/img/el1.png.png" alt="foto profil "width="400px">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- HERO SECTION -->
+                
+ <!-- KOLOSE FOTO BERKELOMPOK -->
+<section id="kolase" class="py-16 bg-white dark:bg-gray-900">
+  <div class="container mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-8 text-gray-800 dark:text-white"></h2>
+    
+    <div class="flex flex-wrap justify-center items-end space-x-4">
+      <a href="lumut1.html" target="_blank">
+        <img src="./src/img/lumut1-removebg.png" alt="Lumut 1" class="w-28 sm:w-32 md:w-36 hover:scale-105 transition duration-300">
+      </a>
+      <a href="el2.html" target="_blank">
+        <img src="./src/img/el2.png.png" alt="el 2" class="w-28 sm:w-32 md:w-36 hover:scale-105 transition duration-300">
+      </a>
+      <a href="halimun1.html" target="_blank">
+        <img src="./src/img/halimun1-removebg.png" alt="Lumut 3" class="w-28 sm:w-32 md:w-36 hover:scale-105 transition duration-300">
+      </a>
+           <a href="ciputri1.html" target="_blank">
+        <img src="./src/img/ciputri1-removebg.png" alt="Lumut 3" class="w-28 sm:w-32 md:w-36 hover:scale-105 transition duration-300">
+      </a>
+    </div>
+  </div>
+</section>
 
     <!-- ABOUT SECTION START -->
     <section id="about" class="pt-36 pb-32">
@@ -59,6 +72,40 @@
             </div>
         </div>
     </section>
+
+
+     <!-- TESTIMONI SECTION -->
+  <section id="testimoni" class="py-20 bg-gray-100 dark:bg-gray-800">
+    <div class="container mx-auto px-4">
+      <h2 class="text-3xl font-bold text-center mb-10 dark:text-white">Apa Kata Teman?</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white dark:bg-gray-700 p-6 rounded shadow" data-aos="fade-up">
+          <p class="text-gray-600 dark:text-gray-300">"Keren banget websitenya!"</p>
+          <h4 class="mt-4 font-semibold dark:text-white">— Teman A</h4>
+        </div>
+        <div class="bg-white dark:bg-gray-700 p-6 rounded shadow" data-aos="fade-up" data-aos-delay="100">
+          <p class="text-gray-600 dark:text-gray-300">"Inspiratif dan estetik!"</p>
+          <h4 class="mt-4 font-semibold dark:text-white">— Teman B</h4>
+        </div>
+        <div class="bg-white dark:bg-gray-700 p-6 rounded shadow" data-aos="fade-up" data-aos-delay="200">
+          <p class="text-gray-600 dark:text-gray-300">"Bikin aku juga pengen buat website!"</p>
+          <h4 class="mt-4 font-semibold dark:text-white">— Teman C</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
     <!-- ABOUT SECTION END -->
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var typed = new Typed(".auto-type", {
+      strings: ["Sleeping", "Hiking", "Touring"],
+      typeSpeed: 100,
+      backSpeed: 50,
+      loop: true
+    });
+  </script>
 </body>
 </html>
